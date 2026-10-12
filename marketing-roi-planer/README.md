@@ -17,3 +17,11 @@ Wspólny moduł `dist/model.mjs` korzysta z arytmetyki stałoprzecinkowej BigInt
 ## Specyfikacja
 
 Wymagania MVP: [docs/PRD.md](docs/PRD.md).
+
+## GitHub Pages
+
+Aplikacja: https://matas-pl.github.io/szkolenia/
+
+GitHub Pages publikuje gałąź `main` z katalogu głównego repozytorium. Główny `index.html` wczytuje zasoby z `marketing-roi-planer/dist/`; `.nojekyll` wyłącza przetwarzanie Jekyll. Po zmianie `dist/index.html` zaktualizuj również główny `index.html`, zachowując wskazane ścieżki CSS i JavaScript.
+
+Scenariusze ze starego adresu aplikacji można przenieść za pomocą eksportu i importu JSON.
