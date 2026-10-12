@@ -1,0 +1,1 @@
+{"name":"marketing-roi-planer","private":true,"type":"module","scripts":{"test":"node --test tests/*.test.mjs"},"devDependencies":{"jsdom":"^26.0.0","playwright-core":"^1.64.0"}}
